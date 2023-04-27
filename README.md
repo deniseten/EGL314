@@ -1,11 +1,7 @@
 # EGL314
 # System Diagram
 ## Video Diagram
-```mermaid
-graph LR
-A[Projector with hdmi receiver]-->B[Server with hdmi transmitter]
-B-->C[Laptop with pandora box]
-```
+![Alt text](images/Video%20Diagram.png)
 ## Lighting Diagram
 ```mermaid
 graph LR 
