@@ -8,6 +8,7 @@ graph LR
 
 A[Laptop] --> B[LED Lighting]
 ```
+
 ## Floor Plan
 ![Alt text](images/Floor%20Plan.png)
 
