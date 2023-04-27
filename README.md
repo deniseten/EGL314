@@ -1,4 +1,6 @@
 # EGL314
+# System Diagram
+
 ## Floor Plan
 ![Alt text](images/Floor%20Plan.png)
 
