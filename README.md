@@ -3,7 +3,7 @@
 ## Video Diagram
 ```mermaid
 graph LR
-A[Projector with hdmi receiver]-->B[Server with hdmi transmitter via hdmi]
+A[Projector with hdmi receiver]-->B[Server with hdmi transmitter]
 B-->C[Laptop with pandora box]
 ```
 ## Floor Plan
