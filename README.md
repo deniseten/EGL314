@@ -6,6 +6,12 @@ graph LR
 A[Projector with hdmi receiver]-->B[Server with hdmi transmitter]
 B-->C[Laptop with pandora box]
 ```
+## Lighting Diagram
+```mermaid
+graph LR 
+
+A[Laptop] --> B[LED Lighting]
+```
 ## Floor Plan
 ![Alt text](images/Floor%20Plan.png)
 
@@ -15,8 +21,3 @@ B-->C[Laptop with pandora box]
 ## Equipment List
 ![Alt text](images/Equipment%20list.png)
 
-## Lighting Diagram
-```mermaid
-graph LR 
-
-A[Laptop] --> B[LED Lighting]
