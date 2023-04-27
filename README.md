@@ -14,3 +14,9 @@ B-->C[Laptop with pandora box]
 
 ## Equipment List
 ![Alt text](images/Equipment%20list.png)
+
+## Lighting Diagram
+```mermaid
+graph LR 
+
+A[Laptop] --> B[LED Lighting]
