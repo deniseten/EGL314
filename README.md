@@ -23,3 +23,6 @@ A[Laptop] --> B[LED Lighting]
 
 ## Raspberry Pi Setup
 ![Alt text](images/raspberry%20pi.jpg)
+
+## Server Rack Setup
+![Alt text](images/rack%20layout.jpg)
