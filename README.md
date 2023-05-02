@@ -17,3 +17,6 @@ A[Laptop] --> B[LED Lighting]
 
 ## Equipment List
 ![Alt text](images/Eq%20list.png)
+
+## Projector Setup
+![Alt text](images/Projector.jpg)
