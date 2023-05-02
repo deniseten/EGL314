@@ -16,5 +16,4 @@ A[Laptop] --> B[LED Lighting]
 ![Alt text](images/Rack%20layout.png)
 
 ## Equipment List
-![Alt text](images/Equipment%20list.png)
-
+![Alt text](images/Eq%20list.png)
