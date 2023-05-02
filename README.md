@@ -20,3 +20,6 @@ A[Laptop] --> B[LED Lighting]
 
 ## Projector Setup
 ![Alt text](images/Projector.jpg)
+
+## Raspberry Pi Setup
+![Alt text](images/raspberry%20pi.jpg)
