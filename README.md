@@ -18,8 +18,6 @@
 
 # Rack Layout
 ![Alt text](images/rack%20layout%20diagram.png)
-![Alt text](images/rack%20layout.jpg)
-
 
 # Equipment List
 ![Alt text](images/equipment%20list.png)
