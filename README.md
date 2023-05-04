@@ -9,6 +9,7 @@ graph LR
 
 A[Laptop] --> B[LED Lighting]
 ```
+
 ## Floor Plan
 ![Alt text](images/Floor%20Plan.png)
 
@@ -16,5 +17,13 @@ A[Laptop] --> B[LED Lighting]
 ![Alt text](images/Rack%20layout.png)
 
 ## Equipment List
-![Alt text](images/Equipment%20list.png)
+![Alt text](images/Updated%20eq%20list.png)
 
+## Projector Setup
+![Alt text](images/Projector.jpg)
+
+## Raspberry Pi Setup
+![Alt text](images/raspberry%20pi.jpg)
+
+## Server Rack Setup
+![Alt text](images/rack%20layout.jpg)
