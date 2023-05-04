@@ -2,29 +2,33 @@
 # Storyboard
 ![Alt text](images/storyboard.jpeg)
 # System Diagram
+## Control Diagram
+![Alt text](images/control%20diagram.png)
+
 ## Video Diagram
-![Alt text](images/Video%20Diagram.png)
+![Alt text](images/video%20diagram.png)
+
 ## Lighting Diagram
-```mermaid
-graph LR 
+![Alt text](images/lighting%20diagram.png)
 
-A[Laptop] --> B[LED Lighting]
-```
+## Audio Diagram
 
-## Floor Plan
-![Alt text](images/Floor%20Plan.png)
+# Floor Plan
 
-## Rack Layout
-![Alt text](images/Rack%20layout.png)
 
-## Equipment List
-![Alt text](images/Updated%20eq%20list.png)
+# Rack Layout
+![Alt text](images/rack%20layout%20diagram.png)
+![Alt text](images/rack%20layout.jpg)
 
-## Projector Setup
+
+# Equipment List
+![Alt text](images/equipment%20list.png)
+
+# Projector Setup
 ![Alt text](images/Projector.jpg)
 
-## Raspberry Pi Setup
+# Raspberry Pi Setup
 ![Alt text](images/raspberry%20pi.jpg)
 
-## Server Rack Setup
+# Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
