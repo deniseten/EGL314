@@ -15,7 +15,7 @@
 ## Audio Diagram
 
 # Floor Plan
-
+![Alt text](images/floor%20plan.png)
 
 # Rack Layout
 ![Alt text](images/rack%20layout%20diagram.png)
