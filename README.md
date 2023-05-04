@@ -1,5 +1,6 @@
 # EGL314
 # Storyboard
+![Alt text](images/storyboard.jpeg)
 # System Diagram
 ## Video Diagram
 ![Alt text](images/Video%20Diagram.png)
