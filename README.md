@@ -1,4 +1,5 @@
-# EGL314
+# EGL314 TEAM D
+
 # Storyboard
 ![Alt text](images/storyboard.jpeg)
 # System Diagram
