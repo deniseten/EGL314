@@ -7,7 +7,7 @@
 ![Alt text](images/control%20diagram.png)
 
 ## Video Diagram
-![Alt text](images/video%20diagram.png)
+![Alt text](images/Video%20Diagram.png)
 
 ## Lighting Diagram
 ![Alt text](images/lighting%20diagram.png)
@@ -32,3 +32,5 @@
 
 # Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
+
+[def]: images/audio%20diagram.png
