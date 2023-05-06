@@ -13,6 +13,7 @@
 ![Alt text](images/lighting%20diagram.png)
 
 ## Audio Diagram
+![label](images/audio%20diagram.png)
 
 # Floor Plan
 ![Alt text](images/floor%20plan.png)
@@ -31,3 +32,5 @@
 
 # Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
+
+[def]: images/audio%20diagram.png
