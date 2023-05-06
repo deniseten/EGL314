@@ -13,6 +13,7 @@
 ![Alt text](images/lighting%20diagram.png)
 
 ## Audio Diagram
+![Alt text](images/audio%20diagram.png)
 
 # Floor Plan
 ![Alt text](images/floor%20plan.png)
