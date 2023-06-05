@@ -32,5 +32,3 @@
 
 # Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
-
-[def]: images/audio%20diagram.png
