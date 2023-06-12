@@ -34,3 +34,9 @@
 ![Alt text](images/rack%20layout.jpg)
 
 [def]: images/audio%20diagram.png
+
+# Video Setup
+![Alt text](images/Pandora%20Box%20Sequence%20for%20314.jpg)
+Sequence setup inside pandora box.
+![Alt text](images/Connection%20manager%20for%20314.jpg)
+Tcp connection setup in the widget designer for the raspberry pi to communicate with the pandora box.
