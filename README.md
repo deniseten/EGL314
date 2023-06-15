@@ -43,5 +43,5 @@ Tcp connection setup in the widget designer for the raspberry pi to communicate 
 
 # Audio Setup
 ![label](images/audio%20setup.jpg)
-This my type of cable used
+This the type of cable used
 ![label](images/type%20of%20cable.jpg)
