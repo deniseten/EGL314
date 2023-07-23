@@ -22,7 +22,7 @@
 ![Alt text](images/rack%20layout%20diagram.png)
 
 # Equipment List
-![Alt text](images/equipment%20list.png)
+![Alt text](images/euipment%20list.png)
 
 # Projector Setup
 ![Alt text](images/Projector.jpg)
