@@ -35,6 +35,7 @@
 
 [def]: images/audio%20diagram.png
 
+<<<<<<< Updated upstream
 # Video Setup
 ![Alt text](images/Pandora%20Box%20Sequence%20for%20314.jpg)
 Sequence setup inside pandora box.
@@ -42,9 +43,9 @@ Sequence setup inside pandora box.
 Tcp connection setup in the widget designer for the raspberry pi to communicate with the pandora box.
 
 # Audio Setup
-[label](images/audio%20setup.jpg)
+![Alt text](images/audio%20setup.jpg)
 This the type of cable used
-![label](images/type%20of%20cable.jpg)
+![Alt text](images/type%20of%20cable.jpg)
 
 # Raspberry Pi Coding for OpenCV
 
@@ -135,3 +136,4 @@ cv2.destroyAllWindows()
 
 ```
 This programme gathers camera frames, detects hand motions, determines swipe direction (left or right), transmits matching messages over a socket connection, and displays processed frames with swipe labels.
+=======
