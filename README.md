@@ -49,6 +49,7 @@ This the type of cable used
 ! [Alt text](images/artnet:dmx%20node.jpeg)
 ! [Alt text](images/dmx-driver.jpeg)
 
+
 ### Socket Configuration:
 ```
 TCP_IP = '192.168.1.50'
