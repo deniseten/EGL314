@@ -45,6 +45,10 @@ Tcp connection setup in the widget designer for the raspberry pi to communicate 
 This the type of cable used
 ![Alt text](images/type%20of%20cable.jpg)
 
+# Lighting Setup
+! [Alt text](images/artnet:dmx%20node.jpeg)
+! [Alt text](images/dmx-driver.jpeg)
+
 ### Socket Configuration:
 ```
 TCP_IP = '192.168.1.50'
@@ -62,67 +66,3 @@ cap = cv2.VideoCapture(0)
 ```
 The code creates a 'cap' video capture object to collect frames from the default camera (index 0). This object will be used later to get video frames.
 
-### Hand Movement Detection:
-```
-previous_frame = None
-gesture = None
-
-while True:
-    ret, frame = cap.read()
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    gray = cv2.GaussianBlur(gray, (9, 9), 0)
-    
-    if previous_frame is None:
-        previous_frame = gray
-        continue
-    
-    frame_diff = cv2.absdiff(previous_frame, gray)
-    _, thresh = cv2.threshold(frame_diff, 30, 255, cv2.THRESH_BINARY)
-    dilated = cv2.dilate(thresh, None, iterations=3)
-    
-    contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    
-    left_swipe = False
-    right_swipe = False
-
-    for contour in contours:
-        if cv2.contourArea(contour) < 1000:
-            continue
-        
-        x, y, w, h = cv2.boundingRect(contour)
-        
-        if x < frame.shape[1] // 2:
-            right_swipe = True
-            cv2.putText(frame, "Right Swipe", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
-        else:
-            left_swipe = True
-            cv2.putText(frame, "Left Swipe", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
-        
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
-
-    if left_swipe and not right_swipe:
-        gesture = "Left Swipe"
-        MESSAGE = b"left"
-        s.send(MESSAGE)
-    elif right_swipe and not left_swipe:
-        gesture = "Right Swipe"
-        MESSAGE = b"right"
-        s.send(MESSAGE)
-    else:
-        gesture = "No Swipe"
-        MESSAGE = b"no swipe"
-        s.send(MESSAGE)
-    
-    cv2.imshow('Hand Movement Detection', frame)
-    
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-    previous_frame = gray
-
-cap.release()
-cv2.destroyAllWindows()
-
-```
-This programme gathers camera frames, detects hand motions, determines swipe direction (left or right), transmits matching messages over a socket connection, and displays processed frames with swipe labels.
-=======
