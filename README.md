@@ -27,8 +27,6 @@
 # Projector Setup
 ![Alt text](images/Projector.jpg)
 
-# Raspberry Pi Setup
-![Alt text](images/raspberry%20pi.jpg)
 
 # Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
@@ -45,15 +43,6 @@ Tcp connection setup in the widget designer for the raspberry pi to communicate 
 [label](images/audio%20setup.jpg)
 This the type of cable used
 ![label](images/type%20of%20cable.jpg)
-
-# Raspberry Pi Coding for OpenCV
-
-### Importing Libraries:
-```
-import cv2
-import socket
-```
-The code imports the necessary libraries: cv2 for computer vision tasks and socket for network communication.
 
 ### Socket Configuration:
 ```
