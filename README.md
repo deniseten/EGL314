@@ -46,8 +46,9 @@ This the type of cable used
 ![Alt text](images/type%20of%20cable.jpg)
 
 # Lighting Setup
-! [Alt text](images/artnet:dmx%20node.jpeg)
-! [Alt text](images/dmx-driver.jpeg)
+![Alt text](images/artnet:dmx%20node.jpg)
+![Alt text](images/dmx-driver.jpg)
+This is the dmx driver that we connect to the artnet-dmx node.
 
 
 ### Socket Configuration:
