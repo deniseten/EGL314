@@ -4,7 +4,7 @@
 ![Alt text](images/storyboard.jpeg)
 # System Diagram
 ## Control Diagram
-![Alt text](images/control%20diagram.png)
+
 
 ## Video Diagram
 ![Alt text](images/Video%20Diagram.png)
@@ -29,7 +29,7 @@
 
 
 # Server Rack Setup
-![Alt text](images/rack%20layout.jpg)
+![Alt text](images/Srever-rack.jpeg)
 
 [def]: images/audio%20diagram.png
 
@@ -46,10 +46,14 @@ This the type of cable used
 ![Alt text](images/type%20of%20cable.jpg)
 
 # Lighting Setup
-![Alt text](images/artnet:dmx%20node.jpg)
-![Alt text](images/dmx-driver.jpg)
+![Alt text](images/artnet_dmx_node.jpg)
+![Alt text](images/dmx_driver.jpg)
 This is the dmx driver that we connect to the artnet-dmx node.
 
+# Cameras Setup
+![Alt text](images/Screen2.jpeg)
+
+Two Cameras Video Cam and Webcam.
 
 ### Socket Configuration:
 ```
@@ -67,4 +71,6 @@ This section configures the socket connection's TCP/IP address, port number, and
 cap = cv2.VideoCapture(0)
 ```
 The code creates a 'cap' video capture object to collect frames from the default camera (index 0). This object will be used later to get video frames.
+
+### Picture Taking:
 
