@@ -39,6 +39,8 @@ Sequence setup inside pandora box.
 ![Alt text](images/Connection%20manager%20for%20314.jpg)
 Tcp connection setup in the widget designer for the raspberry pi to communicate with the pandora box.
 
+# Gui Setup
+Will Update soon
 # Audio Setup
 ![Alt text](images/audio%20setup.jpg)
 ![Alt text](images/type%20of%20cable.jpg)
@@ -75,3 +77,32 @@ cap = cv2.VideoCapture(0)
 ```
 The code creates a 'cap' video capture object to collect frames from the default camera (index 0). This object will be used later to get video frames.
 
+# GUI Button Programming
+```
+SeqSetState(1,"Play")
+```
+This is for the play button to play the music.
+```
+SeqSetState(1,"Pause")
+```
+This is for pausing the music.
+```
+CurrentcueNum = 1
+SeqGotoCue(1,CurrentcueNum)
+SeqSetState(1,"Play")
+```
+This is to reset the music.
+```
+DeviceSetParam(2,2,"Opacity",255)
+DeviceSetParam(2,3,"Opacity",255)
+DeviceSetParam(2,4,"Opacity",255)
+WDWait(5)
+DeviceSetParam(2,2,"Opacity",0)
+DeviceSetParam(2,3,"Opacity",0)
+DeviceSetParam(2,4,"Opacity",0)
+```
+This code is for showing the fun poses that the user can do, when pressed it will appear for 5 seconds afterwards it will be gone.
+```
+PlaySound("C:\321Effect\Sound effect.wav")
+```
+This code is for playing the countdown sound when the picture taking button is pressed.
