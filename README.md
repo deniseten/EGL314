@@ -1,10 +1,15 @@
-# EGL314 TEAM D
+# EGL314 TEAM D (PHOTO BOOTH)
+![Alt text](<images/grp photo.jpeg>)
+
+# Introduction of our team
+(UPDATE!!!)
 
 # Storyboard
 ![Alt text](images/storyboard.jpeg)
-# System Diagram
-## Control Diagram
 
+# System Diagrams
+## Control Diagram
+![Alt text](<images/control diagram.png>)
 
 ## Video Diagram
 ![Alt text](images/Video%20Diagram.png)
@@ -15,28 +20,19 @@
 ## Audio Diagram
 ![Alt text](images/audio%20diagram.jpg)
 
-# Floor Plan
-![Alt text](images/floor%20plan.png)
-
-# Rack Layout
-![Alt text](images/rack%20layout%20diagram.png)
+# Floor Plan and Layout
+(UPDATE!!!)
 
 # Equipment List
-![Alt text](images/equipment%20list.png)
+(UPDATE!!!)
+
+# Server Rack Setup
+![Alt text](images/rack%20layout.jpg)
+![Alt text](images/Srever-rack.jpeg)
 
 # Projector Setup
 ![Alt text](images/Projector.jpg)
 
-
-# Server Rack Setup
-<<<<<<< HEAD
-![Alt text](images/rack%20layout.jpg)
-=======
-![Alt text](images/Srever-rack.jpeg)
-
-[def]: images/audio%20diagram.png
-
-<<<<<<< Updated upstream
 # Video Setup
 ![Alt text](images/Pandora%20Box%20Sequence%20for%20314.jpg)
 Sequence setup inside pandora box.
@@ -55,10 +51,14 @@ This is the dmx driver that we connect to the artnet-dmx node.
 
 # Cameras Setup
 ![Alt text](images/Screen2.jpeg)
+Two Cameras-> Video Cam and Webcam
 
-Two Cameras Video Cam and Webcam.
+# Final Setup
+![Alt text](images/final1.jpeg)
+![Alt text](images/final2.jpeg)
+![Alt text](images/final3.jpeg)
 
-### Socket Configuration:
+# Socket Configuration
 ```
 TCP_IP = '192.168.1.50'
 TCP_PORT = 5020
@@ -69,12 +69,9 @@ s.connect((TCP_IP, TCP_PORT))
 ```
 This section configures the socket connection's TCP/IP address, port number, and buffer size. It generates a socket object, 's', with the supplied IP address and port number, and connects to the specified server.
 
-### Video Capture Initialization:
+# Video Capture Initialization
 ```
 cap = cv2.VideoCapture(0)
 ```
 The code creates a 'cap' video capture object to collect frames from the default camera (index 0). This object will be used later to get video frames.
 
-### Picture Taking:
-
->>>>>>> cb26ffc9fc6207e4bf109c8c7329dbe1d684922f
