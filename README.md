@@ -41,8 +41,8 @@ Tcp connection setup in the widget designer for the raspberry pi to communicate 
 
 # Audio Setup
 ![Alt text](images/audio%20setup.jpg)
-This the type of cable used
 ![Alt text](images/type%20of%20cable.jpg)
+This the type of cable used
 
 # Lighting Setup
 ![Alt text](images/artnet_dmx_node.jpg)
