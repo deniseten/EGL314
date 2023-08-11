@@ -1,7 +1,7 @@
 # EGL314 TEAM D (PHOTO BOOTH)
 ![Alt text](<images/grp photo.jpeg>)
 
-# Introduction of our team
+# Introduction of our project
 (UPDATE!!!)
 
 # Storyboard
