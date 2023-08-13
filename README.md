@@ -24,7 +24,7 @@
 (UPDATE!!!)
 
 # Equipment List
-(UPDATE!!!)
+![Alt text](images/Equipment_List.png)
 
 # Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
