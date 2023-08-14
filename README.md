@@ -5,7 +5,7 @@
 (UPDATE!!!)
 
 # Storyboard
-![Alt text](images/storyboard.jpeg)
+(UPDATE!!!)
 
 # System Diagrams
 ## Control Diagram
@@ -24,7 +24,7 @@
 (UPDATE!!!)
 
 # Equipment List
-![Alt text](images/Equipment_List.png)
+(UPDATE!!!)
 
 # Server Rack Setup
 ![Alt text](images/rack%20layout.jpg)
