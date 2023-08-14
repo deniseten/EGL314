@@ -40,7 +40,8 @@ Sequence setup inside pandora box.
 Tcp connection setup in the widget designer for the raspberry pi to communicate with the pandora box.
 
 # Gui Setup
-Will Update soon
+![Alt text](images/gui.jpeg)
+
 # Audio Setup
 ![Alt text](images/audio%20setup.jpg)
 ![Alt text](images/type%20of%20cable.jpg)
