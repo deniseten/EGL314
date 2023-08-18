@@ -2,7 +2,7 @@
 ![Alt text](<images/grp photo.jpeg>)
 
 # Introduction of our project
-(UPDATE!!!)
+Since it is our last semester and we are about to head off for our internship, we decided to commemorate our memories for this school semester and installed cameras for previewing and taking the photos. This is our project, photobooth.
 
 # Storyboard
 (UPDATE!!!)
