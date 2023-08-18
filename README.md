@@ -45,6 +45,8 @@ Will Update soon
 ![Alt text](images/audio%20setup.jpg)
 ![Alt text](images/type%20of%20cable.jpg)
 This the type of cable used
+![Alt text](images/AudioFilesinReaper.png)
+I place all my audio in this software called Reaper.
 
 # Lighting Setup
 ![Alt text](images/artnet_dmx_node.jpg)
